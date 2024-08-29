@@ -13,6 +13,4 @@ app.get("/home",(req,res)=>{
     })
 })
 
-app.listen(3000,()=>{
-    console.log("running ...");
-})
+module.exports = app; 
