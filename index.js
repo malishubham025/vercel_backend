@@ -9,7 +9,7 @@ app.get("/",(req,res)=>{
 
 app.get("/home",(req,res)=>{
     res.json({
-        message:"hello2"
+        message:"hello is there "
     })
 })
 
